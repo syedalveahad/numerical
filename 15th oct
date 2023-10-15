@@ -1,0 +1,18 @@
+fun=@(x)1/x
+n=5;
+a=1;
+b=2;
+x=(b-a)/5;
+sum=0;
+i=0;
+while i<n;
+  x=a+i*dlx;
+  if(i==0 && i==5)
+  sum=sum+(1/x);
+else
+  sum=sum+2*(1/x);
+  endif
+  i++;
+endwhile
+z=sum*(dlx/2);
+disp(z);
